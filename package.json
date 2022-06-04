@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test:firestore": "firebase emulators:exec 'jest ./test/firestore'"
+  },
   "devDependencies": {
     "@firebase/rules-unit-testing": "^2.0.2",
     "@types/jest": "^28.1.0",
