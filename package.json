@@ -1,10 +1,12 @@
 {
   "scripts": {
-    "test:firestore": "firebase emulators:exec 'jest ./test/firestore'"
+    "test:firestore": "firebase emulators:exec 'jest ./test/firestore'",
+    "test": "jest"
   },
   "devDependencies": {
     "@firebase/rules-unit-testing": "^2.0.2",
     "@types/jest": "^28.1.0",
+    "@types/uuid": "^8.3.4",
     "jest": "^28.1.0",
     "ts-jest": "^28.0.4",
     "uuid": "^8.3.2"
